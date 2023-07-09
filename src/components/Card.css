@@ -1,0 +1,74 @@
+.slider{
+    margin: 10px 10px;
+}
+
+.title{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-slider{
+    display: flex;
+    overflow-y: auto;
+    width: 100%;
+    margin: 0px 0px 30px;
+    box-shadow: 0px 0px 10px black;
+    padding: 15px; 
+}
+
+.card-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.card-container{
+    min-width: 200px;
+    min-height: 150px;
+    background-color: black;
+    position: relative;
+    margin: 0px 10px; 
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.card-container:hover{
+    box-shadow: 0px 0px 20px blueviolet;
+    border-radius: 20px;
+}
+
+.banner-style{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.moviename{
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+    padding: 2px 0px 0px 5px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.controls{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.unliked{
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.liked{
+    cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+    color: red;
+}

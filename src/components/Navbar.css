@@ -1,0 +1,73 @@
+.home-logo{
+    height: 75px;
+    width: 150px ;
+}
+
+.Navbar{
+    position: sticky;
+    display:flex;
+    padding: 20px;
+    top: 0;
+    vertical-align: center;
+    background-color: rgba(26,26,32,0.9);
+    gap: 2rem;
+    z-index: 1;
+    box-shadow: 0px 10px 10px 5px rgba(26,26,32,0.9);
+}
+
+
+.navbar-links{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.Link{
+    color: white;
+    text-decoration: none;
+    font-family: Cambria;
+    font-weight: bolder;
+}
+
+.Link:hover{
+    color: blueviolet;
+}
+
+.search-bar{
+    margin-top: 20px;
+    vertical-align: center;
+    margin-left: 40%;
+}
+
+.search-input{
+    padding: 0.5rem;
+    margin-right: 5rem;
+    border-color: #8a2be2;
+    background-color: #1a1a20;
+    color: white;
+    border-radius: 20px;
+}
+
+.search-input:hover{
+    padding: 0.5rem;
+    margin-right: 5rem;
+    border-color: #8a2be2;
+    background-color: white;
+    color: #1a1a20;
+    border-radius: 20px;
+}
+
+.logout-button{
+    color: blueviolet;
+    font-family: Cambria;
+    font-size: 25px;
+    position: absolute;
+    top:50px;
+}
+
+.logout-button:hover{
+    color: white;
+    cursor: pointer;
+}
+

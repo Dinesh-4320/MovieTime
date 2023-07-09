@@ -1,0 +1,16 @@
+*::-webkit-scrollbar{
+    display: none;
+}
+
+.react-player{
+    cursor: pointer;
+}
+
+.react-player svg{
+    color: white;    
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    font-size:xx-large;
+}
+
